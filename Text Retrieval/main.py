@@ -59,7 +59,7 @@ def takeCorpus(folderName): # Plot tag clound for each file (Taking the 50 first
 #takeCorpus("nasa")
 
 
-def termFrequency(fileName): # Compute termFrequency from a tyt file
+def termFrequency(fileName): # Compute termFrequency from a txt file
     f = open(fileName)
     m = f.read()
     token = nltk.word_tokenize(m,preserve_line=False)
